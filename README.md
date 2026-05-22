@@ -42,7 +42,7 @@ python main.py collect
 Cleans the raw data and generates the modeled electricity consumption dataset.
 
 ```bash
-python main.py clean --infile data/raw/energy_consumption.json
+python main.py clean --infile ./data/raw/energy_consumption.json
 
 ```
 
@@ -51,7 +51,7 @@ python main.py clean --infile data/raw/energy_consumption.json
 Creates analytical plots (scatter plots, heatmaps, time-series lines).
 
 ```bash
-python main.py viz --infile data/processed/clean.csv
+python main.py viz --infile ./data/processed/clean.csv
 
 ```
 
@@ -60,7 +60,7 @@ python main.py viz --infile data/processed/clean.csv
 Compiles a final markdown report with references to the generated charts.
 
 ```bash
-python main.py report --raw data/raw/energy_consumption.json --clean data/processed/clean.csv --cleaninfo artifacts/reports/clean_info.json
+python main.py report --raw ./data/raw/energy_consumption.json --clean ./data/processed/clean.csv --cleaninfo ./artifacts/reports/clean_info.json
 
 ```
 
