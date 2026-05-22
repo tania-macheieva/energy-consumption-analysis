@@ -1,0 +1,14 @@
+{
+  "shape_before": [
+    8760,
+    4
+  ],
+  "missing_before": 0,
+  "duplicates_before": 0,
+  "shape_after": [
+    8760,
+    11
+  ],
+  "missing_after": 0,
+  "duplicates_after": 0
+}

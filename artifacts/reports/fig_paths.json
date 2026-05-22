@@ -1,0 +1,7 @@
+{
+  "line_trend": "artifacts\\figures\\v13_energy_trend_line.png",
+  "hist_daily": "artifacts\\figures\\v13_energy_hist_daily.png",
+  "rolling_std": "artifacts\\figures\\v13_energy_rolling_std.png",
+  "scatter_temp": "artifacts\\figures\\v13_energy_scatter_temp.png",
+  "heatmap": "artifacts\\figures\\v13_energy_heatmap.png"
+}
